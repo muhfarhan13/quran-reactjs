@@ -1,4 +1,4 @@
-## Visit: alquran-online.vercel.app
+Visit: [alquran-online.vercel.app](https://alquran-online.vercel.app).
 
 # Getting Started with Create React App
 
