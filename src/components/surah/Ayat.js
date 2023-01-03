@@ -20,9 +20,6 @@ const Ayat = () => {
 
   const ayat = surah.ayat;
 
-  console.log(ayat);
-  console.log(surah);
-
   return (
     <div>
       <div className="parent-element">
@@ -46,8 +43,11 @@ const Ayat = () => {
                 {ayat.nomor}
               </span>
             </div>
-            <div className="ayat pt-5">
-              <h1 className="text-right text-3xl font-semibold">{ayat.ar}</h1>
+            <div className="ayat pt-5 flex justify-end">
+              <h1 className="text-3xl font-semibold">{ayat.ar}</h1>
+            </div>
+            <div className="ayat pt-5 flex justify-end">
+              <h2 className="font-semibold text-lg">{ayat.tr}</h2>
             </div>
             <div className="terjemah py-6">
               <p className="text-left italic">Arti: "{ayat.idn}"</p>
